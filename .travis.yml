@@ -5,6 +5,6 @@ python:
  script:
  - py.test teste.py
  after script:
- notifications:
-  recipients:
-  - ian.lemos.greg@gmail.com
+  notifications:
+   recipients:
+    - ian.lemos.greg@gmail.com
