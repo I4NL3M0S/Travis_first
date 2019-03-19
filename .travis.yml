@@ -2,9 +2,9 @@ language: python
 python:
  - "3.6"
  #Command to run test
- script:
- - pytest teste.py
- after script:
+script:
+  - pytest teste.py
+after script:
   notifications:
-   recipients:
-    - ian.lemos.greg@gmail.com
+  recipients:
+   - ian.lemos.greg@gmail.com
