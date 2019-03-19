@@ -3,7 +3,7 @@ python:
  - "3.6"
  #Command to run test
  script:
- - py-test teste.py
+ - py.test teste.py
  after script:
  notifications:
   recipients:
